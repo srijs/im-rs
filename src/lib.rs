@@ -74,6 +74,7 @@ pub mod set;
 #[macro_use]
 pub mod list;
 pub mod queue;
+pub mod text;
 pub mod iter;
 pub mod lens;
 pub mod shared;
@@ -83,6 +84,7 @@ pub use map::Map;
 pub use set::Set;
 pub use queue::Queue;
 pub use list::List;
+pub use text::Text;
 pub use iter::unfold;
 
 #[cfg(test)]
